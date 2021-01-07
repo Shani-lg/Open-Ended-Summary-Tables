@@ -1,0 +1,97 @@
+---
+title: "Open Ended Summary Tables Take 2"
+author: "Me!"
+date: "January 6, 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+##imports data 
+ParticipantDemo.Pull2 <- read.csv("D:/Koehly/SNMS Member Folders/Shani Gelles/Open Ended Summary/ParticipantDemo-Pull2.csv")
+View(ParticipantDemo.Pull2)
+```
+
+```{r}
+## trying to convert insurance data from binary to categorical
+
+library(reshape2)
+library(tidyverse)
+
+df=data.frame(c("insJob", "insMcareMcaid", "insLTC", "insDisability", "insOthWhat" ))
+```
+
+```{r}
+ ##pull rows related to insurance out of dataset
+insurance <- ParticipantDemo.Pull2 %>% select(1, 17:21)
+##match rows to id column 
+long=melt(insurance,id=1)
+#only keep 1's
+long=long[which(long$value==1),]
+#merge in ids for NA entries
+long=merge(insurance[,1,drop=F],long,all.x=T)
+View(long)
+```
+
+```{r}
+##This merges the two datasets into one, in long format
+total <- merge(ParticipantDemo.Pull2, long, by = "ï..StudyID")
+
+##I did it!! This aggregates the long data and allows me to have multiple types of insurance in the insurance (variable) column. Then it merges the long and wide data into wide format with the newly created column. (https://stackoverflow.com/questions/13795421/multiple-values-in-one-cell-using-r)
+
+aggregated <- aggregate(variable~ï..StudyID, long, paste, collapse=",", na.action=na.pass)
+
+long_wide <- merge(ParticipantDemo.Pull2, aggregated, "ï..StudyID")
+
+##renamed variable column as insurance, might rename others later for ease in understanding
+long_wide = long_wide %>% rename(Insurance = variable)
+
+## selected columns for analysis
+ long_wide_for_dabblingdata <- select(long_wide, 5:16, 22:25)
+```
+
+```{r}
+ ## used this website (https://dabblingwithdata.wordpress.com/2018/01/02/my-favourite-r-package-for-summarising-data/) to find ways to summarize data. This is using Hmisc_describe. I need to look at the output and likely make some adjustments and learn about some of the descriptors. 
+
+library(Hmisc)
+Hmisc::describe(long_wide_for_dabblingdata)
+```
+
+```{r}
+## This uses psych_describe. It converts categorical to numeric summaries and stars them. I will use formattable package to reformat this
+
+library(psych)
+psych::describe(long_wide_for_dabblingdata)
+
+```
+
+```{r}
+## This uses skimr_skim. Cool mini histograms for numerical, pretty useless for categorical.
+
+library(skimr)
+skim(long_wide_for_dabblingdata)
+
+
+```
+
+```{r}
+## This uses summarytools_dfSummary
+
+library(summarytools)
+dfSummary(long_wide_for_dabblingdata)
+
+```
+
+```{r}
+## From another website (http://www.danieldsjoberg.com/gtsummary/articles/tbl_summary.html)
+
+library(gtsummary)
+tbl_summary(long_wide_for_dabblingdata)
+View(long_wide_for_dabblingdata)
+
+```
+
