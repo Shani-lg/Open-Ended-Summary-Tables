@@ -1,22 +1,32 @@
 ---
 title: "Open Ended Summary Tables Take 2"
-author: "Me!"
+author: "Shani Gelles"
 date: "January 6, 2021"
-output: html_document
+output:
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r, echo=FALSE, results="asis", out.width = '\\textwidth', message=FALSE, warning=FALSE}
 
-```{r}
+##not sure exactly what each element of this adds, but between all of it it took the column stats/values and gave each number it's own row
+
+library(summarytools)
+st_css()
+
+```
+
+
+```{r, include=FALSE}
 ##imports data 
 ParticipantDemo.Pull2 <- read.csv("D:/Koehly/SNMS Member Folders/Shani Gelles/Open Ended Summary/ParticipantDemo-Pull2.csv")
 View(ParticipantDemo.Pull2)
 ```
 
-```{r}
+```{r, include=FALSE}
 ## trying to convert insurance data from binary to categorical
 
 library(reshape2)
@@ -25,7 +35,7 @@ library(tidyverse)
 df=data.frame(c("insJob", "insMcareMcaid", "insLTC", "insDisability", "insOthWhat" ))
 ```
 
-```{r}
+```{r, include=FALSE}
  ##pull rows related to insurance out of dataset
 insurance <- ParticipantDemo.Pull2 %>% select(1, 17:21)
 ##match rows to id column 
@@ -37,7 +47,7 @@ long=merge(insurance[,1,drop=F],long,all.x=T)
 View(long)
 ```
 
-```{r}
+```{r, include=FALSE}
 ##This merges the two datasets into one, in long format
 total <- merge(ParticipantDemo.Pull2, long, by = "ï..StudyID")
 
@@ -54,14 +64,111 @@ long_wide = long_wide %>% rename(Insurance = variable)
  long_wide_for_dabblingdata <- select(long_wide, 5:16, 22:25)
 ```
 
-```{r}
+```{r, eval=FALSE, include=FALSE}
+## makng the years since diagnosis data meaningful. screw this, I can do it in 30 seconds in excel
+
+df_edits <- select(long_wide, 1, 5:16, 17:25)
+
+df_edits %>% 
+  select('yrDxAR') %>%
+    .after='yrDxAR' %>% lapply(mutate (as.numeric(2021)-'yrDxAR'))
+
+mutate(df_edits, select(yrDxAR) .after=yrDxAR, )
+
+
+
+Sys.Date()
+
+data <- (A = c(Sys.Date) B = c(df_edits, "yrDxAR" ))
+
+A <-  c(Sys.Date)
+B <- c(df_edits [, 19])
+B
+
+
+
+format(as.Date(Sys.Date$Date, format="%d/%m/%Y"),"%Y")
+
+
+
+data$C <- (data$A - data$B)
+data
+
+```
+
+
+```{r, include-FALSE, echo=FALSE, message=FALSE, warning=FALSE}
+## Ok let's format this dataframe a bit more. 
+
+##Added years since Dx column in Excel, merged tables and removed redundant columns. Renamed columns to have more clear titles. 
+
+library(dplyr)
+library(readxl)
+
+df_edits <- select(long_wide, 1, 3, 5:16, 17:25)
+
+ptAge_to_add <- read_excel("ptAge to add.xlsx")
+df_edits = df_edits %>% rename(StudyID = "ï..StudyID")
+df_edits <- merge(df_edits, ptAge_to_add, by = "StudyID")
+
+df_edits <- select(df_edits, 1:23, 26)
+df_edits = df_edits %>% rename(
+  Relationship_to_Affected_Relative = relship2AR,
+  Study_Group = StudyGrp,
+  Age_Participant = ptAge,
+  Gender_Participant = MaleFem,
+  Race = RaceMultiChoice,
+  RaceOther_FillIn = RaceOtherWhat,
+  Hispanic_Latino= HispLat,
+  Marital_Status = marStat,
+  Education_Level = EducLevel,
+  Employment_Status = SalaryWage,
+  Household_Income = Income1,
+  Gender_Affected_Relative = genderAR,
+  Age_Affected_Relative = ageAR.x,
+  Insurance_Aggregated = Insurance,
+  Ins_Job = insJob,
+  Ins_Medicare_Medicaid = insMcareMcaid,
+  Ins_LongtermCare = insLTC,
+  Ins_Disability = insDisability,
+  Ins_Other = insOthWhat,
+  Year_Dx_AffectedRel = yrDxAR.x,
+  Number_Children = ptKids,
+  Ladder_Perception = Ladder)
+
+## Reordered columns 
+df_edits <- df_edits[c(1,2,3,4,5,6,7,8,21,9,10,11,12,23,15,16,17,18,19,22,13,14,20,24)]
+
+##trying to change things that should be numeric to numeric. FML
+
+df_edits$"Number_Children" <- as.numeric(as.character(df_edits$"Number_Children"))
+
+df_edits$"Ladder_Perception" <- as.numeric(as.character(df_edits$"Ladder_Perception"))
+
+df_edits$"Years Since Dx (from 2021)" <- as.numeric(as.character(df_edits$"Years Since Dx (from 2021)"))
+
+df_edits$"Ins_Job" <- as.character(as.character(df_edits$"Ins_Job"))
+
+df_edits$"Ins_Medicare_Medicaid" <- as.character(as.character(df_edits$"Ins_Medicare_Medicaid"))
+
+df_edits$"Ins_LongtermCare" <- as.character(as.character(df_edits$"Ins_LongtermCare"))
+
+df_edits$"Ins_Disability" <- as.character(as.character(df_edits$"Ins_Disability"))
+
+df_edits$"Ins_Other" <- as.character(as.character(df_edits$"Ins_Other"))
+
+long_wide_for_dabblingdata <- df_edits[, -1]
+```
+
+
+```{r, eval=FALSE, include=FALSE}
  ## used this website (https://dabblingwithdata.wordpress.com/2018/01/02/my-favourite-r-package-for-summarising-data/) to find ways to summarize data. This is using Hmisc_describe. I need to look at the output and likely make some adjustments and learn about some of the descriptors. 
 
 library(Hmisc)
 Hmisc::describe(long_wide_for_dabblingdata)
 ```
 
-```{r}
+```{r, eval=FALSE, include=FALSE}
 ## This uses psych_describe. It converts categorical to numeric summaries and stars them. I will use formattable package to reformat this
 
 library(psych)
@@ -69,7 +176,7 @@ psych::describe(long_wide_for_dabblingdata)
 
 ```
 
-```{r}
+```{r, eval=FALSE, include=FALSE}
 ## This uses skimr_skim. Cool mini histograms for numerical, pretty useless for categorical.
 
 library(skimr)
@@ -78,20 +185,33 @@ skim(long_wide_for_dabblingdata)
 
 ```
 
-```{r}
+
+```{r, include=FALSE, message=FALSE, warning=FALSE}
 ## This uses summarytools_dfSummary
 
 library(summarytools)
 dfSummary(long_wide_for_dabblingdata)
 
+str(long_wide_for_dabblingdata)
+
+
 ```
 
-```{r}
+```{r, echo=FALSE}
+#this actually prints the summary table
+print(dfSummary(long_wide_for_dabblingdata), method = "render", valid.col = FALSE, max.distinct.values=10)
+```
+
+```{r, include=FALSE, echo=FALSE, eval=FALSE}
 ## From another website (http://www.danieldsjoberg.com/gtsummary/articles/tbl_summary.html)
 
 library(gtsummary)
-tbl_summary(long_wide_for_dabblingdata)
-View(long_wide_for_dabblingdata)
+tbl_summary(long_wide_for_dabblingdata, statistic = all_continuous() ~ "{mean} ({sd})")
+
+tbl_summary(long_wide_for_dabblingdata, 
+             statistic = list(all_continuous('ptAge', 'yrDxAR', 'ptKids', 'Ladder') ~ "{mean} ({sd})",
+                     all_categorical('relship2AR', 'MaleFem', 'RaceMultiChoice', 'RaceOtherWhat', 'HispLat','marStat', 'EducLevel', 'SalaryWage', 'Income1', 'genderAR', 'ageAR', 'Insurance') ~ "{n} / {N} ({p}%)"))
 
 ```
+
 

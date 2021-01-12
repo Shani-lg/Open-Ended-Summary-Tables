@@ -1,0 +1,239 @@
+﻿StudyID,FamilyId,StudyGrp,matchFamID,relship2AR,ptAge,MaleFem,RaceMultiChoice,RaceOtherWhat,HispLat,marStat,EducLevel,SalaryWage,Income1,genderAR,ageAR
+100000,100,MMA-IEM,201,mother,40,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$125,001 to 150,000",Female,13
+100001,100,MMA-IEM,201,father,44,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$100,001 to 125,000",Female,13
+103000,103,MINI-IEM,204,mother,39,Female,Other: Please Indicate,hispanic,Hispanic or Latino,Married / Living as Married,High School Graduate,Full time employed,"$35,001 to $50,000",Male,11
+103001,103,MINI-IEM,204,father,39,Male,Other: Please Indicate,Hispanic ,Hispanic or Latino,Married / Living as Married,Middle School,Full time employed,"$75,001 to $100,000",Male,11
+105000,105,MINI-IEM,203,mother,39,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Part-time employed,"$50,001 to $75,000",Male,8
+105001,105,MINI-IEM,203,father,NA,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Male,8
+106000,106,MINI-IEM,200,mother,40,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$50,001 to $75,000",Female,2
+107000,107,MMA-IEM,223,mother,34,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$35,001 to $50,000",Female,4
+107001,107,MMA-IEM,223,father,33,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$35,001 to $50,000",Female,4
+108000,108,MINI-IEM,NULL,mother,37,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$150,001 to 200,000",Female,11
+108001,108,MINI-IEM,NULL,father,40,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$150,001 to 200,000",Female,11
+109000,109,MMA-IEM,222,mother,40,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Part-time employed,"$75,001 to $100,000",Male,7
+109001,109,MMA-IEM,222,father,44,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$50,001 to $75,000",Male,7
+110000,110,MMA-IEM,215,mother,38,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Not employed (including student or homemaker),"$125,001 to 150,000",Male,15
+110001,110,MMA-IEM,215,father,39,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$150,001 to 200,000",Male,15
+111000,111,MINI-IEM,214,mother,31,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$75,001 to $100,000",Male,3
+111001,111,MINI-IEM,NULL,father,44,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$100,001 to 125,000",Male,1
+112000,112,MMA-IEM,212,mother,41,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$35,001 to $50,000",Male,9
+112001,112,MMA-IEM,212,father,49,Male,Other: Please Indicate,Light Skinned Mexican American,Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$35,001 to $50,000",Male,10
+115000,115,MMA-IEM,211,mother,40,Female,White,NULL,Hispanic or Latino,Married / Living as Married,High School Graduate,Full time employed,"$125,001 to 150,000",Male,4
+116000,116,MMA-IEM,218,mother,38,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"Greater than $200,000",Female,2
+116001,116,MMA-IEM,218,father,40,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"Greater than $200,000",Female,2
+117000,117,MMA-IEM,224,mother,30,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$100,001 to 125,000",Male,2
+117001,117,MMA-IEM,224,father,32,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$100,001 to 125,000",Male,2
+118000,118,MMA-IEM,239,father,34,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$150,001 to 200,000",Male,2
+119000,119,MMA-IEM,220,mother,30,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"Greater than $200,000",Male,3
+119001,119,MMA-IEM,NULL,father,34,Male,Other: Please Indicate,Hispanic / White / American Indian,Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"Greater than $200,000",Male,3
+120000,120,PA-IEM,246,father,49,Male,White,NULL,Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"Greater than $200,000",Male,14
+121000,121,MMA-IEM,231,mother,38,Female,Other: Please Indicate,Mix,NULL,Separated,Post-Graduate Degree,Full time employed,"$35,001 to $50,000",Female,11
+122000,122,MMA-IEM,227,mother,47,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$50,001 to $75,000",Male,10
+122001,122,MMA-IEM,227,father,45,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$75,001 to $100,000",Male,10
+123000,123,MMA-IEM,232,mother,36,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$150,001 to 200,000",Male,6
+123001,123,MMA-IEM,232,father,44,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,GED,Full time employed,"$150,001 to 200,000",Male,6
+124000,124,LSD-iem,228,mother,45,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Full time employed,"$20,001 to $35,000",Female,16
+124001,124,LSD-iem,228,father,46,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Technical/ Vocational Training,Full time employed,"$75,001 to $100,000",Female,16
+125000,125,MMA-IEM,237,father,36,Male,Other: Please Indicate,"Middle Easter, Arab",Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"Greater than $200,000",Male,7
+126000,126,PA-IEM,230,mother,32,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$100,001 to 125,000",Male,3
+126001,126,PA-IEM,230,father,32,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$100,001 to 125,000",Male,3
+127000,127,PA-IEM,234,mother,49,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"Greater than $200,000",Female,10
+127001,127,PA-IEM,NULL,father,49,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"Greater than $200,000",Female,10
+128000,128,MMA-IEM,241,mother,50,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Part-time employed,"$35,001 to $50,000",Female,17
+128001,128,MMA-IEM,NULL,father,55,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Middle School,Full time employed,"$35,001 to $50,000",Female,17
+129000,129,PA-IEM,238,mother,42,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$75,001 to $100,000",Female,5
+130000,130,LSD-iem,240,mother,29,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Not employed (including student or homemaker),"$75,001 to $100,000",Male,9
+131000,131,PA-IEM,242,mother,42,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$125,001 to 150,000",Female,16
+132000,132,PA-IEM,206,mother,36,Female,Black or African American,NULL,Non-Hispanic or Latino,Never Married,Bachelor's Degree,Full time employed,"$75,001 to $100,000",Female,5
+133000,133,MMA-IEM,245,mother,34,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$75,001 to $100,000",Male,3
+133001,133,MMA-IEM,NULL,father,33,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$75,001 to $100,000",Male,4
+134000,134,MMA-IEM,244,mother,36,Female,Other: Please Indicate,Pakistani,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$75,001 to $100,000",Male,11
+134001,134,MMA-IEM,NULL,father,41,Male,Asian,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$75,001 to $100,000",Male,11
+135000,135,MMA-IEM,243,mother,35,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"Greater than $200,000",Male,6
+135001,135,MMA-IEM,NULL,father,42,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"Greater than $200,000",Male,6
+136000,136,PA-IEM,248,mother,31,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$75,001 to $100,000",Female,6
+137000,137,MMA-IEM,NULL,mother,37,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$125,001 to 150,000",Female,5
+138001,138,MMA-IEM,NULL,father,39,Male,Asian,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"Greater than $200,000",Male,3
+139000,139,MMA-IEM,NULL,mother,49,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Part-time employed,"Greater than $200,000",Male,16
+139001,139,MMA-IEM,NULL,father,54,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"Greater than $200,000",Male,17
+140000,140,PA-IEM,258,mother,52,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Part-time employed,"$50,001 to $75,000",Female,12
+141000,141,MMA-IEM,250,mother,39,Female,Other: Please Indicate,Caucasian/Filipino,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$125,001 to 150,000",Male,8
+141001,141,MMA-IEM,NULL,father,40,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$150,001 to 200,000",Male,9
+142000,142,MMA-IEM,249,mother,39,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Full time employed,"$100,001 to 125,000",Male,NA
+143000,143,PA-IEM,NULL,father,32,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$75,001 to $100,000",Male,6
+143001,143,PA-IEM,NULL,mother,30,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$50,001 to $75,000",Male,6
+144000,144,MMA-IEM,251,mother,50,Female,Asian,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Not employed (including student or homemaker),Don't know,Male,15
+144001,144,MMA-IEM,NULL,father,50,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$50,001 to $75,000",Male,15
+145000,145,PA-IEM,254,mother,47,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Full time employed,"$75,001 to $100,000",Male,8
+145001,145,PA-IEM,NULL,father,46,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$50,001 to $75,000",Male,8
+146000,146,PA-IEM,256,mother,37,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"Greater than $200,000",Male,2
+146001,146,PA-IEM,NULL,father,39,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"Greater than $200,000",Male,8
+148000,148,MMA-IEM,260,mother,29,Female,Asian,NULL,Non-Hispanic or Latino,NULL,Associate Degree/ Some College,Not employed (including student or homemaker),"$20,000 or less",Male,9
+149000,149,MMA-IEM,253,mother,40,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$100,001 to 125,000",Male,1
+149001,149,MMA-IEM,NULL,father,39,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$150,001 to 200,000",Male,11
+149002,149,MMA-IEM,NULL,stepmother,31,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Part-time employed,"Greater than $200,000",Male,11
+149004,149,MMA-IEM,NULL,stepfather,39,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$150,001 to 200,000",Male,12
+150000,150,MMA-IEM,NULL,mother,36,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$20,001 to $35,000",Male,9
+150001,150,MMA-IEM,NULL,stepfather,40,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$50,001 to $75,000",Male,9
+151000,151,MMA-IEM,266,mother,29,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Technical/ Vocational Training,Full time employed,"$20,000 or less",Male,2
+152000,152,MMA-IEM,261,mother,35,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Part-time employed,"$35,001 to $50,000",Female,2
+152001,152,MMA-IEM,NULL,father,38,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Full time employed,"$35,001 to $50,000",Female,2
+153000,153,PA-IEM,NULL,mother,41,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$20,001 to $35,000",Female,1
+153001,153,PA-IEM,NULL,father,41,Male,American Indian / Alaska Native,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Not employed (including student or homemaker),"$50,001 to $75,000",Female,3
+154000,154,MMA-IEM,NULL,mother,34,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$100,001 to 125,000",Male,4
+154001,154,MMA-IEM,NULL,father,35,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Technical/ Vocational Training,Full time employed,"$100,001 to 125,000",Male,3
+157000,157,MMA-IEM,NULL,mother,37,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$125,001 to 150,000",Female,5
+200000,200,HV,106,mother,34,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"Greater than $200,000",Male,2
+201000,201,HV,100,mother,49,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$150,001 to 200,000",Male,13
+202000,202,HV,NULL,father,59,Male,White,NULL,Non-Hispanic or Latino,Divorced,Bachelor's Degree,Part-time employed,"$125,001 to 150,000",Female,11
+203000,203,HV,105,father,33,Male,Black or African American,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$150,001 to 200,000",Male,7
+204000,204,HV,103,mother,41,Female,Black or African American,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Part-time employed,"$50,001 to $75,000",Female,10
+205000,205,HV,109,mother,38,Female,Other: Please Indicate,White and Native American,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Part-time employed,"$100,001 to 125,000",Female,6
+206000,206,HV,132,mother,36,Female,Native Hawaiian or Other Pacific Islander,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$35,001 to $50,000",Female,11
+207000,207,HV,107,grandmother,24,Female,Black or African American,NULL,NULL,Never Married,Associate Degree/ Some College,Part-time employed,"$50,001 to $75,000",Female,2
+210000,210,HV,NULL,mother,47,Female,Asian,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$150,001 to 200,000",Female,5
+211000,211,HV,115,mother,26,Female,Black or African American,NULL,Non-Hispanic or Latino,Never Married,Bachelor's Degree,Full time employed,"$20,001 to $35,000",Male,4
+212000,212,HV,112,mother,47,Male,White,NULL,Non-Hispanic or Latino,Never Married,Bachelor's Degree,Part-time employed,"$20,001 to $35,000",Male,9
+213000,213,HV,NULL,father,46,Male,Other: Please Indicate,Hispanic,Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$100,001 to 125,000",Male,10
+214000,214,HV,111,mother,30,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$75,001 to $100,000",Female,2
+214001,214,HV,NULL,father,31,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$50,001 to $75,000",Female,2
+215000,215,HV,110,mother,53,Female,White,NULL,Non-Hispanic or Latino,Divorced,Bachelor's Degree,Part-time employed,"$20,001 to $35,000",Male,15
+216000,216,HV,117,mother,NA,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NA
+218000,218,HV,116,mother,33,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Part-time employed,"Greater than $200,000",Male,2
+219000,219,HV,NULL,mother,36,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$100,001 to 125,000",Female,3
+220000,220,HV,119,mother,36,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Part-time employed,"$50,001 to $75,000",Female,3
+222000,222,HV,109,mother,43,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$125,001 to 150,000",Male,6
+223000,223,HV,107,mother,39,Female,Other: Please Indicate,Irish/Italian,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$150,001 to 200,000",Female,3
+223001,223,HV,NULL,father,42,Male,NULL,NULL,NULL,Married / Living as Married,Post-Graduate Degree,Full time employed,"$125,001 to 150,000",Female,3
+224000,224,HV,117,mother,38,Female,Black or African American,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$50,001 to $75,000",Female,2
+225000,225,HV,NULL,mother,53,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$100,001 to 125,000",Female,14
+226000,226,HV,147,mother,34,Female,Asian,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"Greater than $200,000",Female,13
+227000,227,HV,122,father,39,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"Greater than $200,000",Male,11
+228000,228,HV,124,mother,48,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$150,001 to 200,000",Male,16
+228001,228,HV,NULL,father,52,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$150,001 to 200,000",Male,16
+229000,229,HV,123,father,46,Male,American Indian / Alaska Native,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$75,001 to $100,000",Female,5
+230000,230,HV,126,father,38,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$125,001 to 150,000",Female,3
+231000,231,HV,121,father,45,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"Greater than $200,000",Male,12
+232000,232,HV,123,father,36,Male,Black or African American,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$50,001 to $75,000",Female,6
+232001,232,HV,NULL,stepmother,29,Female,Black or African American,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Not employed (including student or homemaker),"$35,001 to $50,000",Female,6
+234000,234,HV,127,father,49,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$100,001 to 125,000",Female,9
+235000,235,HV,129,father,43,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$75,001 to $100,000",Female,6
+237000,237,HV,125,father,32,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$100,001 to 125,000",Female,7
+238000,238,HV,129,father,41,Male,Asian,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$100,001 to 125,000",Female,5
+238001,238,HV,NULL,mother,41,Female,Asian,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"Greater than $200,000",Female,5
+239000,239,HV,118,mother,43,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$125,001 to 150,000",Male,4
+239001,239,HV,NULL,father,44,Male,Other: Please Indicate,Hispanic,Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$100,001 to 125,000",Male,4
+240000,240,HV,130,mother,35,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$150,001 to 200,000",Female,9
+240002,240,HV,NULL,father,39,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$150,001 to 200,000",Female,9
+241000,241,HV,128,mother,54,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$150,001 to 200,000",Male,18
+242000,242,HV,131,mother,52,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Part-time employed,"$75,001 to $100,000",Female,16
+242001,242,HV,NULL,father,45,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Full time employed,"$75,001 to $100,000",Female,16
+243000,243,HV,135,father,41,Male,Black or African American,NULL,Non-Hispanic or Latino,Married / Living as Married,Some High School,Part-time employed,"$100,001 to 125,000",Male,9
+244000,244,HV,134,mother,52,Female,White,NULL,Non-Hispanic or Latino,Never Married,Post-Graduate Degree,Full time employed,"$50,001 to $75,000",Male,11
+245000,245,HV,133,mother,37,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$75,001 to $100,000",Female,4
+246000,246,HV,120,father,41,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Not employed (including student or homemaker),"$125,001 to 150,000",Male,14
+247000,247,HV,138,father,40,Male,Black or African American,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"Greater than $200,000",Female,4
+248000,248,HV,136,mother,27,Female,White,NULL,Non-Hispanic or Latino,Divorced,High School Graduate,Full time employed,"$20,001 to $35,000",Female,6
+249000,249,HV,142,mother,31,Female,Black or African American,NULL,Non-Hispanic or Latino,Divorced,Associate Degree/ Some College,Part-time employed,"$20,000 or less",Male,12
+250000,250,HV,141,mother,46,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$100,001 to 125,000",Male,8
+250001,250,HV,NULL,father,50,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$100,001 to 125,000",Male,8
+251000,251,HV,144,stepmother,38,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$50,001 to $75,000",Female,15
+251001,251,HV,NULL,father,42,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,GED,Full time employed,Don't know,Female,15
+253000,253,HV,149,mother,47,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$100,001 to 125,000",Female,12
+254000,254,HV,145,mother,43,Female,Asian,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"Greater than $200,000",Female,9
+256000,256,HV,146,mother,49,Female,Asian,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"Greater than $200,000",Female,9
+257000,257,HV,NULL,mother,36,Female,Black or African American,NULL,Non-Hispanic or Latino,Never Married,Associate Degree/ Some College,Full time employed,"$20,001 to $35,000",Female,6
+258000,258,HV,140,mother,39,Female,Other: Please Indicate,Hispanic ,Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$50,001 to $75,000",Male,13
+259000,259,HV,NULL,mother,39,Female,Black or African American,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$125,001 to 150,000",Female,8
+260000,260,HV,148,mother,38,Female,White,NULL,Hispanic or Latino,Never Married,Associate Degree/ Some College,Full time employed,"$50,001 to $75,000",Male,10
+261000,261,HV,152,mother,37,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$150,001 to 200,000",Female,3
+262000,262,HV,NULL,mother,34,Female,Asian,NULL,Non-Hispanic or Latino,Never Married,Associate Degree/ Some College,Full time employed,"$50,001 to $75,000",Male,9
+264000,264,HV,NULL,mother,49,Female,White,NULL,Non-Hispanic or Latino,Never Married,Bachelor's Degree,Full time employed,"$75,001 to $100,000",Female,9
+265000,265,HV,NULL,mother,37,Female,White,NULL,Non-Hispanic or Latino,Divorced,Bachelor's Degree,Full time employed,"$75,001 to $100,000",Female,4
+266000,266,HV,151,mother,36,Female,Other: Please Indicate,Puerto Rican,Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Part-time employed,"$75,001 to $100,000",Female,3
+268000,268,HV,NULL,mother,40,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Part-time employed,"$100,001 to 125,000",Female,2
+269000,269,HV,NULL,mother,37,Female,White,NULL,Hispanic or Latino,Never Married,Post-Graduate Degree,Full time employed,"$50,001 to $75,000",Male,11
+401000,401,UDP,NULL,mother,29,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$50,001 to $75,000",Male,6
+401001,401,UDP,NULL,father,32,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,GED,Full time employed,"$50,001 to $75,000",Male,6
+402000,402,UDP,NULL,mother,36,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$100,001 to 125,000",Male,5
+402001,402,UDP,NULL,father,38,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$100,001 to 125,000",Male,5
+403000,403,UDP,NULL,mother,34,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Not employed (including student or homemaker),"$150,001 to 200,000",Male,4
+403001,403,UDP,NULL,father,39,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$150,001 to 200,000",Male,5
+404000,404,UDP,NULL,father,37,Male,White,NULL,Non-Hispanic or Latino,Divorced,Post-Graduate Degree,Full time employed,"$100,001 to 125,000",Female,5
+404001,404,UDP,NULL,mother,35,Female,White,NULL,Non-Hispanic or Latino,Divorced,Associate Degree/ Some College,Full time employed,"$35,001 to $50,000",Female,5
+405000,405,UDP,NULL,mother,29,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Elementary,Not employed (including student or homemaker),"$20,001 to $35,000",Male,7
+405001,405,UDP,NULL,father,33,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Elementary,Full time employed,"$35,001 to $50,000",Male,7
+406000,406,UDP,NULL,mother,38,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$50,001 to $75,000",Female,6
+406001,406,UDP,NULL,father,44,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$75,001 to $100,000",Female,6
+407000,407,UDP,NULL,mother,39,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Not employed (including student or homemaker),"$75,001 to $100,000",Male,13
+407001,407,UDP,NULL,father,39,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,Don't know,Male,13
+408000,408,UDP,NULL,mother,32,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$150,001 to 200,000",Male,1
+408001,408,UDP,NULL,father,34,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$150,001 to 200,000",Male,1
+410000,410,UDP,NULL,mother,29,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$75,001 to $100,000",Female,6
+410001,410,UDP,NULL,father,30,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$75,001 to $100,000",Female,1
+700000,700,MMA-IEM,NULL,mother,62,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Retired,"$35,001 to $50,000",Female,31
+700001,700,MMA-IEM,NULL,father,61,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Retired,"$20,001 to $35,000",Female,31
+702000,702,Other-IEM,NULL,mother,33,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$100,001 to 125,000",Male,9
+704000,704,Other-IEM,NULL,mother,39,Female,Other: Please Indicate,"Bi racial, Black and white",Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$100,001 to 125,000",Female,16
+705000,705,MMA-IEM,NULL,mother,34,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Not employed (including student or homemaker),"$20,000 or less",Male,3
+706000,706,MMA-IEM,NULL,father,40,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$125,001 to 150,000",Male,2
+706001,706,MMA-IEM,NULL,mother,40,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$100,001 to 125,000",Male,2
+707000,707,MMA-IEM,NULL,mother,29,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$100,001 to 125,000",Male,4
+708000,708,Other-IEM,NULL,mother,36,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Not employed (including student or homemaker),"$35,001 to $50,000",Female,14
+710000,710,MMA-IEM,NULL,mother,56,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,Don't know,Female,24
+710001,710,MMA-IEM,NULL,father,55,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,Don't know,Female,24
+711000,711,MMA-IEM,NULL,mother,37,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Technical/ Vocational Training,Full time employed,"$100,001 to 125,000",Male,12
+712000,712,MMA-IEM,NULL,mother,61,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$125,001 to 150,000",Female,33
+713000,713,Other-IEM,NULL,mother,37,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$150,001 to 200,000",Female,4
+714000,714,MMA-IEM,NULL,mother,47,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Not employed (including student or homemaker),"$150,001 to 200,000",Female,21
+714001,714,MMA-IEM,NULL,father,52,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Technical/ Vocational Training,Full time employed,"$150,001 to 200,000",Female,21
+715000,715,PA-IEM,NULL,mother,51,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$125,001 to 150,000",Male,16
+715001,715,PA-IEM,NULL,father,NA,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Male,16
+716000,716,MMA-IEM,NULL,mother,49,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$125,001 to 150,000",Male,22
+717000,717,MMA-IEM,NULL,father,45,Male,Other: Please Indicate,"MIXED WHITE, AFRICAN AND NATIVE CENTRAL AMERICAN",Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$50,001 to $75,000",Male,10
+717001,717,MMA-IEM,NULL,mother,39,Female,White,NULL,Hispanic or Latino,NULL,Bachelor's Degree,Not employed (including student or homemaker),"$35,001 to $50,000",NULL,9
+718000,718,Other-IEM,NULL,mother,32,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$75,001 to $100,000",Female,1
+719000,719,LSD-iem,NULL,mother,58,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$75,001 to $100,000",Male,28
+719001,719,LSD-iem,NULL,father,60,Male,White,NULL,Non-Hispanic or Latino,NULL,Bachelor's Degree,Full time employed,"$100,001 to 125,000",Male,28
+721000,721,MMA-IEM,NULL,mother,48,Female,White,NULL,Non-Hispanic or Latino,Divorced,Post-Graduate Degree,Full time employed,"$75,001 to $100,000",Male,21
+721001,721,MMA-IEM,NULL,father,50,Male,White,NULL,Non-Hispanic or Latino,Divorced,Post-Graduate Degree,Full time employed,"$75,001 to $100,000",Male,21
+722000,722,Other-IEM,NULL,mother,41,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$35,001 to $50,000",Male,12
+722002,722,Other-IEM,NULL,father,43,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$50,001 to $75,000",Male,12
+723000,723,Other-IEM,NULL,mother,34,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$150,001 to 200,000",Male,2
+724000,724,Other-IEM,NULL,mother,52,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$125,001 to 150,000",Male,19
+725000,725,MMA-IEM,NULL,mother,23,Female,White,NULL,Non-Hispanic or Latino,Never Married,High School Graduate,Not employed (including student or homemaker),"$35,001 to $50,000",Female,4
+726000,726,Other-IEM,NULL,mother,30,Female,White,NULL,NULL,Never Married,Bachelor's Degree,Part-time employed,"$20,000 or less",Female,3
+727000,727,MMA-IEM,NULL,mother,54,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Not employed (including student or homemaker),"$20,000 or less",Male,19
+728000,728,LSD-iem,NULL,mother,54,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$50,001 to $75,000",Female,25
+728001,728,LSD-iem,NULL,father,52,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,High School Graduate,Part-time employed,"$35,001 to $50,000",Female,25
+729000,729,Other-IEM,NULL,wife,39,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Part-time employed,"$20,000 or less",Male,31
+730000,730,PA-IEM,NULL,mother,59,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Full time employed,"$125,001 to 150,000",Female,28
+730001,730,PA-IEM,NULL,father,64,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$100,001 to 125,000",Female,28
+731000,731,Other-IEM,NULL,mother,38,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"Greater than $200,000",Male,2
+732000,732,Other-IEM,NULL,mother,62,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$75,001 to $100,000",Male,27
+733000,733,Other-IEM,NULL,mother,40,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Technical/ Vocational Training,Part-time employed,"$75,001 to $100,000",Female,17
+734000,734,PA-IEM,NULL,mother,63,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Retired,"$150,001 to 200,000",Female,26
+734001,734,PA-IEM,NULL,father,63,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$150,001 to 200,000",Female,26
+735000,735,Other-IEM,NULL,separatedspouse,74,Male,White,NULL,Non-Hispanic or Latino,Separated,Post-Graduate Degree,Retired,"$75,001 to $100,000",Female,74
+736001,736,PA-IEM,NULL,mother,51,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Not employed (including student or homemaker),Don't know,Male,19
+738000,738,MMA-IEM,NULL,mother,72,Female,White,NULL,Non-Hispanic or Latino,NULL,NULL,Part-time employed,"$50,001 to $75,000",Female,35
+740000,740,Other-IEM,NULL,mother,33,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Part-time employed,"$125,001 to 150,000",Male,5
+740002,740,Other-IEM,NULL,father,34,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$125,001 to 150,000",Male,6
+741000,741,MMA-IEM,NULL,mother,51,Female,Black or African American,NULL,Non-Hispanic or Latino,Divorced,Associate Degree/ Some College,Part-time employed,"$20,000 or less",Female,9
+743000,743,PA-IEM,NULL,mother,66,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Retired,"$75,001 to $100,000",Female,29
+743001,743,PA-IEM,NULL,father,65,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Retired,"$75,001 to $100,000",Female,29
+744000,744,MMA-IEM,NULL,mother,32,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$100,001 to 125,000",Female,1
+745000,745,Other-IEM,NULL,mother,27,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$100,001 to 125,000",Male,NA
+745001,745,Other-IEM,NULL,father,27,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$100,001 to 125,000",Male,1
+746000,746,Other-IEM,NULL,mother,36,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Part-time employed,"$35,001 to $50,000",Female,4
+747000,747,Other-IEM,NULL,mother,37,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$50,001 to $75,000",Male,10
+747001,747,Other-IEM,NULL,father,39,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$50,001 to $75,000",Male,10
+748000,748,MMA-IEM,NULL,mother,52,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Part-time employed,"$100,001 to 125,000",Female,21
+751000,751,MMA-IEM,NULL,mother,59,Female,Asian,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Not employed (including student or homemaker),"$20,001 to $35,000",Female,18
+752000,752,MMA-IEM,NULL,mother,36,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Not employed (including student or homemaker),"$20,001 to $35,000",Female,8
+800000,800,UDP,NULL,mother,26,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$50,001 to $75,000",Female,2
+800001,800,UDP,NULL,father,30,Male,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Full time employed,"$50,001 to $75,000",Female,2
+801000,801,UDP,NULL,mother,38,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Post-Graduate Degree,Full time employed,"$150,001 to 200,000",Male,4
+802000,802,UDP,NULL,mother,46,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Part-time employed,"$20,000 or less",Female,16
+803000,803,UDP,NULL,mother,46,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Bachelor's Degree,Not employed (including student or homemaker),"$50,001 to $75,000",Female,7
+804000,804,UDP,NULL,mother,33,Female,White,NULL,Non-Hispanic or Latino,Married / Living as Married,Associate Degree/ Some College,Part-time employed,"$50,001 to $75,000",Female,2

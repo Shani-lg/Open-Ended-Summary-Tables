@@ -1,0 +1,1465 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdftitle={Open Ended Summary Tables Take 2},
+            pdfauthor={Shani Gelles},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\title{Open Ended Summary Tables Take 2}
+\author{Shani Gelles}
+\date{January 6, 2021}
+
+\begin{document}
+\maketitle
+
+Data Frame Summary
+
+long\_wide\_for\_dabblingdata
+
+Dimensions: 238 x 23 Duplicates: 0
+
+\begin{verbatim}
+<tr>
+  <th align="center" class="st-protect-top-border"><strong>No</strong></th>
+  <th align="center" class="st-protect-top-border"><strong>Variable</strong></th>
+  <th align="center" class="st-protect-top-border"><strong>Stats / Values</strong></th>
+  <th align="center" class="st-protect-top-border"><strong>Freqs (% of Valid)</strong></th>
+  <th align="center" class="st-protect-top-border"><strong>Graph</strong></th>
+  <th align="center" class="st-protect-top-border"><strong>Missing</strong></th>
+</tr>
+\end{verbatim}
+
+\begin{verbatim}
+<tr>
+  <td align="center">1</td>
+  <td align="left">Study_Group
+\end{verbatim}
+
+{[}character{]}
+
+\begin{verbatim}
+  <td align="left">1. HV
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  LSD-iem
+\item
+  MINI-IEM
+\item
+  MMA-IEM
+\item
+  Other-IEM
+\item
+  PA-IEM
+\item
+  UDP
+
+  70
+
+  (
+
+  29.4\%
+
+  )
+
+  7
+
+  (
+
+  2.9\%
+
+  )
+
+  9
+
+  (
+
+  3.8\%
+
+  )
+
+  79
+
+  (
+
+  33.2\%
+
+  )
+
+  22
+
+  (
+
+  9.2\%
+
+  )
+
+  27
+
+  (
+
+  11.3\%
+
+  )
+
+  24
+
+  (
+
+  10.1\%
+
+  )
+
+  0 (0.0\%)
+
+  2
+
+  Relationship\_to\_Affected\_Relative {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    father
+  \end{enumerate}
+\item
+  grandmother
+\item
+  mother
+\item
+  separatedspouse
+\item
+  stepfather
+\item
+  stepmother
+\item
+  wife
+
+  84
+
+  (
+
+  35.3\%
+
+  )
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  146
+
+  (
+
+  61.3\%
+
+  )
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  2
+
+  (
+
+  0.8\%
+
+  )
+
+  3
+
+  (
+
+  1.3\%
+
+  )
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  0 (0.0\%)
+
+  3
+
+  Age\_Participant {[}integer{]}
+
+  Mean (sd) : 41.2 (9.1) min \textless{} med \textless{} max: 23
+  \textless{} 39 \textless{} 74 IQR (CV) : 11.5 (0.2)
+
+  43 distinct values
+
+  3 (1.3\%)
+
+  4
+
+  Gender\_Participant {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Female
+  \end{enumerate}
+\item
+  Male
+\item
+  NULL
+
+  149
+
+  (
+
+  62.6\%
+
+  )
+
+  86
+
+  (
+
+  36.1\%
+
+  )
+
+  3
+
+  (
+
+  1.3\%
+
+  )
+
+  0 (0.0\%)
+
+  5
+
+  Race {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    American Indian / Alaska
+  \end{enumerate}
+\item
+  Asian
+\item
+  Black or African American
+\item
+  Native Hawaiian or Other
+\item
+  NULL
+\item
+  Other: Please Indicate
+\item
+  White
+
+  2
+
+  (
+
+  0.8\%
+
+  )
+
+  12
+
+  (
+
+  5.0\%
+
+  )
+
+  14
+
+  (
+
+  5.9\%
+
+  )
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  4
+
+  (
+
+  1.7\%
+
+  )
+
+  16
+
+  (
+
+  6.7\%
+
+  )
+
+  189
+
+  (
+
+  79.4\%
+
+  )
+
+  0 (0.0\%)
+
+  6
+
+  RaceOther\_FillIn {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    NULL
+  \end{enumerate}
+\item
+  Hispanic
+\item
+  Hispanic 
+
+  ·
+\item
+  Bi racial, Black and whit
+\item
+  Caucasian/Filipino
+\item
+  hispanic
+\item
+  Hispanic / White / Americ
+\item
+  Irish/Italian
+\item
+  Light Skinned Mexican Ame
+\item
+  Middle Easter, Arab {[} 5 others {]}
+
+  222
+
+  (
+
+  93.3\%
+
+  )
+
+  2
+
+  (
+
+  0.8\%
+
+  )
+
+  2
+
+  (
+
+  0.8\%
+
+  )
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  5
+
+  (
+
+  2.1\%
+
+  )
+
+  0 (0.0\%)
+
+  7
+
+  Hispanic\_Latino {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Hispanic or Latino
+  \end{enumerate}
+\item
+  Non-Hispanic or Latino
+\item
+  NULL
+
+  14
+
+  (
+
+  5.9\%
+
+  )
+
+  217
+
+  (
+
+  91.2\%
+
+  )
+
+  7
+
+  (
+
+  2.9\%
+
+  )
+
+  0 (0.0\%)
+
+  8
+
+  Number\_Children {[}numeric{]}
+
+  Mean (sd) : 2.2 (1) min \textless{} med \textless{} max: 0 \textless{}
+  2 \textless{} 5 IQR (CV) : 1 (0.4)
+
+  0
+
+  :
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  1
+
+  :
+
+  54
+
+  (
+
+  23.0\%
+
+  )
+
+  2
+
+  :
+
+  101
+
+  (
+
+  43.0\%
+
+  )
+
+  3
+
+  :
+
+  50
+
+  (
+
+  21.3\%
+
+  )
+
+  4
+
+  :
+
+  25
+
+  (
+
+  10.6\%
+
+  )
+
+  5
+
+  :
+
+  4
+
+  (
+
+  1.7\%
+
+  )
+
+  3 (1.3\%)
+
+  9
+
+  Marital\_Status {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Divorced
+  \end{enumerate}
+\item
+  Married / Living as Marri
+\item
+  Never Married
+\item
+  NULL
+\item
+  Separated
+
+  10
+
+  (
+
+  4.2\%
+
+  )
+
+  207
+
+  (
+
+  87.0\%
+
+  )
+
+  12
+
+  (
+
+  5.0\%
+
+  )
+
+  7
+
+  (
+
+  2.9\%
+
+  )
+
+  2
+
+  (
+
+  0.8\%
+
+  )
+
+  0 (0.0\%)
+
+  10
+
+  Education\_Level {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Associate Degree/ Some Co
+  \end{enumerate}
+\item
+  Bachelor's Degree
+\item
+  Elementary
+\item
+  GED
+\item
+  High School Graduate
+\item
+  Middle School
+\item
+  NULL
+\item
+  Post-Graduate Degree
+\item
+  Some High School
+\item
+  Technical/ Vocational Tra
+
+  44
+
+  (
+
+  18.5\%
+
+  )
+
+  89
+
+  (
+
+  37.4\%
+
+  )
+
+  2
+
+  (
+
+  0.8\%
+
+  )
+
+  3
+
+  (
+
+  1.3\%
+
+  )
+
+  17
+
+  (
+
+  7.1\%
+
+  )
+
+  2
+
+  (
+
+  0.8\%
+
+  )
+
+  4
+
+  (
+
+  1.7\%
+
+  )
+
+  70
+
+  (
+
+  29.4\%
+
+  )
+
+  1
+
+  (
+
+  0.4\%
+
+  )
+
+  6
+
+  (
+
+  2.5\%
+
+  )
+
+  0 (0.0\%)
+
+  11
+
+  Employment\_Status {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Full time employed
+  \end{enumerate}
+\item
+  Not employed (including s
+\item
+  NULL
+\item
+  Part-time employed
+\item
+  Retired
+
+  149
+
+  (
+
+  62.6\%
+
+  )
+
+  34
+
+  (
+
+  14.3\%
+
+  )
+
+  3
+
+  (
+
+  1.3\%
+
+  )
+
+  46
+
+  (
+
+  19.3\%
+
+  )
+
+  6
+
+  (
+
+  2.5\%
+
+  )
+
+  0 (0.0\%)
+
+  12
+
+  Household\_Income {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    \$100,001 to 125,000
+  \end{enumerate}
+\item
+  \$125,001 to 150,000
+\item
+  \$150,001 to 200,000
+\item
+  \$20,000 or less
+\item
+  \$20,001 to \$35,000
+\item
+  \$35,001 to \$50,000
+\item
+  \$50,001 to \$75,000
+\item
+  \$75,001 to \$100,000
+\item
+  Don't know
+\item
+  Greater than \$200,000
+\item
+  NULL
+
+  37
+
+  (
+
+  15.5\%
+
+  )
+
+  22
+
+  (
+
+  9.2\%
+
+  )
+
+  30
+
+  (
+
+  12.6\%
+
+  )
+
+  9
+
+  (
+
+  3.8\%
+
+  )
+
+  12
+
+  (
+
+  5.0\%
+
+  )
+
+  21
+
+  (
+
+  8.8\%
+
+  )
+
+  35
+
+  (
+
+  14.7\%
+
+  )
+
+  37
+
+  (
+
+  15.5\%
+
+  )
+
+  6
+
+  (
+
+  2.5\%
+
+  )
+
+  26
+
+  (
+
+  10.9\%
+
+  )
+
+  3
+
+  (
+
+  1.3\%
+
+  )
+
+  0 (0.0\%)
+
+  13
+
+  Insurance\_Aggregated {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    insJob
+  \end{enumerate}
+\item
+  insOthWhat
+\item
+  insMcareMcaid
+\item
+  insJob,insMcareMcaid
+\item
+  insMcareMcaid,insJob
+\item
+  insJob,insDisability
+\item
+  NA
+\item
+  insDisability,insJob
+\item
+  insJob,insDisability,insL
+\item
+  insDisability,insLTC,insJ {[} 15 others {]}
+
+  134
+
+  (
+
+  56.3\%
+
+  )
+
+  33
+
+  (
+
+  13.9\%
+
+  )
+
+  18
+
+  (
+
+  7.6\%
+
+  )
+
+  10
+
+  (
+
+  4.2\%
+
+  )
+
+  7
+
+  (
+
+  2.9\%
+
+  )
+
+  5
+
+  (
+
+  2.1\%
+
+  )
+
+  4
+
+  (
+
+  1.7\%
+
+  )
+
+  3
+
+  (
+
+  1.3\%
+
+  )
+
+  3
+
+  (
+
+  1.3\%
+
+  )
+
+  2
+
+  (
+
+  0.8\%
+
+  )
+
+  19
+
+  (
+
+  8.0\%
+
+  )
+
+  0 (0.0\%)
+
+  14
+
+  Ins\_Job {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    0
+  \end{enumerate}
+\item
+  1
+
+  56
+
+  (
+
+  23.5\%
+
+  )
+
+  182
+
+  (
+
+  76.5\%
+
+  )
+
+  0 (0.0\%)
+
+  15
+
+  Ins\_Medicare\_Medicaid {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    0
+  \end{enumerate}
+\item
+  1
+
+  194
+
+  (
+
+  81.5\%
+
+  )
+
+  44
+
+  (
+
+  18.5\%
+
+  )
+
+  0 (0.0\%)
+
+  16
+
+  Ins\_LongtermCare {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    0
+  \end{enumerate}
+\item
+  1
+
+  226
+
+  (
+
+  95.0\%
+
+  )
+
+  12
+
+  (
+
+  5.0\%
+
+  )
+
+  0 (0.0\%)
+
+  17
+
+  Ins\_Disability {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    0
+  \end{enumerate}
+\item
+  1
+
+  215
+
+  (
+
+  90.3\%
+
+  )
+
+  23
+
+  (
+
+  9.7\%
+
+  )
+
+  0 (0.0\%)
+
+  18
+
+  Ins\_Other {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    0
+  \end{enumerate}
+\item
+  1
+
+  193
+
+  (
+
+  81.1\%
+
+  )
+
+  45
+
+  (
+
+  18.9\%
+
+  )
+
+  0 (0.0\%)
+
+  19
+
+  Ladder\_Perception {[}numeric{]}
+
+  Mean (sd) : 6.2 (1.8) min \textless{} med \textless{} max: 2
+  \textless{} 6 \textless{} 10 IQR (CV) : 2.5 (0.3)
+
+  2
+
+  :
+
+  7
+
+  (
+
+  3.0\%
+
+  )
+
+  3
+
+  :
+
+  12
+
+  (
+
+  5.1\%
+
+  )
+
+  4
+
+  :
+
+  25
+
+  (
+
+  10.6\%
+
+  )
+
+  5
+
+  :
+
+  41
+
+  (
+
+  17.4\%
+
+  )
+
+  6
+
+  :
+
+  36
+
+  (
+
+  15.3\%
+
+  )
+
+  7
+
+  :
+
+  55
+
+  (
+
+  23.4\%
+
+  )
+
+  8
+
+  :
+
+  41
+
+  (
+
+  17.4\%
+
+  )
+
+  9
+
+  :
+
+  13
+
+  (
+
+  5.5\%
+
+  )
+
+  10
+
+  :
+
+  5
+
+  (
+
+  2.1\%
+
+  )
+
+  3 (1.3\%)
+
+  20
+
+  Gender\_Affected\_Relative {[}character{]}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Female
+  \end{enumerate}
+\item
+  Male
+\item
+  NULL
+
+  111
+
+  (
+
+  46.6\%
+
+  )
+
+  125
+
+  (
+
+  52.5\%
+
+  )
+
+  2
+
+  (
+
+  0.8\%
+
+  )
+
+  0 (0.0\%)
+
+  21
+
+  Age\_Affected\_Relative {[}integer{]}
+
+  Mean (sd) : 10 (8.5) min \textless{} med \textless{} max: 1
+  \textless{} 8 \textless{} 74 IQR (CV) : 9 (0.9)
+
+  31 distinct values
+
+  3 (1.3\%)
+
+  22
+
+  Year\_Dx\_AffectedRel {[}integer{]}
+
+  Mean (sd) : 2007.6 (7.7) min \textless{} med \textless{} max: 1982
+  \textless{} 2010 \textless{} 2018 IQR (CV) : 9 (0)
+
+  29 distinct values
+
+  70 (29.4\%)
+
+  23
+
+  Years Since Dx (from 2021) {[}numeric{]}
+
+  Mean (sd) : 13.4 (7.7) min \textless{} med \textless{} max: 3
+  \textless{} 11 \textless{} 39 IQR (CV) : 9 (0.6)
+
+  29 distinct values
+
+  70 (29.4\%)
+
+  Generated by summarytools 0.9.8 (R version 4.0.3)2021-01-11
+\end{enumerate}
+
+tbl\_summary(long\_wide\_for\_dabblingdata, statistic =
+list(all\_continuous(`ptAge', `yrDxAR', `ptKids', `Ladder')
+\textasciitilde{} ``\{mean\} (\{sd\})'', all\_categorical(`relship2AR',
+`MaleFem', `RaceMultiChoice', `RaceOtherWhat', `HispLat',`marStat',
+`EducLevel', `SalaryWage', `Income1', `genderAR', `ageAR', `Insurance')
+\textasciitilde{} ``\{n\} / \{N\} (\{p\}\%)''))
+
+\end{document}

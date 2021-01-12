@@ -1,0 +1,27 @@
+---
+title: "Formatting Plots"
+author: "Shani Gelles"
+date: "January 8, 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+## This uses summarytools_dfSummary
+
+library(summarytools)
+dfSummary(long_wide_for_dabblingdata)
+
+```
+
+```{r}
+## From another website (http://www.danieldsjoberg.com/gtsummary/articles/tbl_summary.html)
+
+library(gtsummary)
+tbl_summary(long_wide_for_dabblingdata)
+
+```
+
